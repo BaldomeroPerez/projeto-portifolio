@@ -198,7 +198,7 @@ article h2 {
   font-weight: bold;
   color: var(--texto);
 }
-#formacao-container . instituicao {
+#formacao-container .instituicao {
   color: var(--destaque-inverso);
   font-size: 1.1em;
 }
