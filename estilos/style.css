@@ -27,6 +27,17 @@ body{
   line-height: 1.5em;
   background-color: var(--fundo-principal); /* var() variavel do root*/
   color: var(--texto);
+  transition: background-color 2s, color 2s; /* transição suave da cor clara para escura e vice versa */
+}
+
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
+/*  modo body escuro feito para mudar o botão do java*/
 }
 
 header{
